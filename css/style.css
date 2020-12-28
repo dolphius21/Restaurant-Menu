@@ -34,6 +34,7 @@ h1 {
    background-color: transparent;
    font-size: 1rem;
    font-weight: 600;
+   text-transform: capitalize;
    padding: 0.5rem 1rem;
    margin: 0 0.5rem 1rem;
    border: 1px solid #fff;
