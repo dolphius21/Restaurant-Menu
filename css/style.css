@@ -79,6 +79,7 @@ h1 {
 .menu-name {
    max-width: 275px;
    font-size: 1.75rem;
+   text-transform: capitalize;
    color: #333;
 }
 
