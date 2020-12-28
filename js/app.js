@@ -32,12 +32,12 @@ filterBtns.forEach(btn => {
    btn.addEventListener('click', (e) => {
       const category = e.currentTarget.dataset.category;
       const menuCategory = menu.filter(menuItem => {
-         // to get the specific category chosen
+         // to get the specific category targeted
          if (menuItem.category === category) {
             return menuItem;
          }
       });
-      
+      // condition if "all" is targeted 
       (category === 'all') ? printHTML(menu) : printHTML(menuCategory);
    });
 });
